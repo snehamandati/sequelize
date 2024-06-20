@@ -1,16 +1,19 @@
-const Pool = require("pg").Pool
+const Sequelize = require('sequelize');
 
-
-
-const pool = new Pool({
-    user : "postgres",
-    password : "Bharath@04",
-    host : "localhost",
-    port : 5432,
-    database : "Login_Registerpage"
-
+const sequelize = new Sequelize('s3tutorial', 'postgres', 'sneha0506', {
+  host: 'localhost',
+  dialect: 'postgres',
+  port: 5432,
 });
-pool.connect();
 
+// Test the connection
+// sequelize.authenticate()
+//   .then(() => {
+//     console.log('Connection has been established successfully.');
+//   })
+//   .catch(err => {
+//     console.error('Unable to connect to the database:', err);
+//   });
 
-module.exports = pool;
+module.exports = sequelize;
+

@@ -11,16 +11,16 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #ede3e3;
   }
   
   /* Styling the register container */
   .register-container {
-    background: white;
+    background: rgb(14, 4, 47);
     padding: 2rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    width: 300px;
+    width: 500px;
     text-align: center;
   }
   
@@ -28,7 +28,7 @@
   .register-container h1 {
     margin-bottom: 1.5rem;
     font-size: 2rem;
-    color: #333;
+    color: white;
   }
   
   /* Styling the form elements */
@@ -45,7 +45,7 @@
   .register-container button {
     width: 100%;
     padding: 0.75rem;
-    background-color: #007bff;
+    background-color: rgb(0, 157, 255);
     color: white;
     border: none;
     border-radius: 4px;
@@ -55,14 +55,14 @@
   }
   
   .register-container button:hover {
-    background-color: #0056b3;
+    background-color: lightskyblue;
   }
   
   /* Styling the link */
   .register-container a {
     display: block;
     margin-top: 1rem;
-    color: #007bff;
+    color: rgb(223, 225, 236);
     text-decoration: none;
     font-size: 0.9rem;
   }
